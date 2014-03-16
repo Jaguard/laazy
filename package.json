@@ -1,0 +1,66 @@
+{
+	"name": "laazy",
+	"version": "0.1.0",
+	"description": "Define lazy/on-access properties with pluggable resolvers",
+	"homepage": "https://github.com/jaguard/laazy",
+	"keywords": ["lazy", "time", "require"],
+	"author": {
+		"name": "Jaguard OSS",
+		"email": "oss@jaguard.com",
+		"url": "http://oss.jaguard.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jaguard/laazy"
+	},
+	"bugs": {
+		"url": "https://github.com/jaguard/laazy/issues"
+	},
+	"main": "src/timeRequire.js",
+	"scripts": {
+		"start": "gulp watch --karma",
+		"test": "gulp test"
+	},
+	"devDependencies": {
+		"gulp": "~3.6.0",
+		"gulp-util": "~2.2.14",
+		"gulp-load-plugins": "~0.5.0",
+		"run-sequence": "~0.3.6",
+		"gulp-clean": "~0.2.4",
+		"gulp-cached": "~0.0.3",
+		"gulp-jshint": "~1.5.2",
+		"gulp-jsonlint": "~0.0.3",
+		"gulp-if": "~0.0.5",
+		"gulp-match": "~0.0.2",
+		"gulp-jscs": "~0.4.0",
+		"gulp-markdown": "~0.1.2",
+		"gulp-markdown-pdf": "~0.2.0",
+		"gulp-docco": "~0.0.4",
+		"gulp-jsdoc": "~0.1.4",
+		"gulp-jasmine": "~0.2.0",
+		"gulp-notify": "~1.2.5",
+		"jshint-stylish": "~0.1.5",
+		"karma": "~0.12.9",
+		"karma-jasmine": "~0.1.5",
+		"karma-requirejs": "~0.2.1",
+		"karma-junit-reporter": "~0.2.2",
+		"karma-coverage": "~0.2.1",
+		"karma-browserstack-launcher": "~0.0.8",
+		"karma-firefox-launcher": "~0.1.3",
+		"karma-chrome-launcher": "~0.1.3",
+		"karma-phantomjs-launcher": "~0.1.4",
+		"karma-opera-launcher": "~0.1.0",
+		"karma-ie-launcher": "~0.1.5",
+		"karma-growl-reporter": "~0.1.1"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jaguard/laazy/raw/master/LICENSE"
+		}
+	],
+	"engines": {
+		"node": ">= 0.10.24"
+	},
+	"readmeFilename": "README.md"
+}

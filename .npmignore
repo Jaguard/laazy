@@ -1,0 +1,12 @@
+# ignore Node.js submodules & temp
+node_modules/
+target/
+
+# ignore all development files (clone the project for full development support)
+test/
+.brackets.json
+.gitignore
+.jscsrc
+.jshintrc
+.travis.yml
+gulpfile.js

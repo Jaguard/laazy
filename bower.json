@@ -1,0 +1,8 @@
+{
+	"name": "laazy",
+	"version": "0.1.0",
+	"description": "Define lazy/on-access resolvable properties",
+	"homepage": "https://github.com/jaguard/laazy",
+	"main": ["./src/laazy.js"],
+	"ignore": ["doc", "test", "target", "node_modules", ".gitignore", ".jscsrc", ".jshintrc", ".travis.yml", "gulpfile.js"]
+}
